@@ -3,7 +3,7 @@ Full Python serializer for Django.
 """
 from .base import *
 from django.utils.encoding import is_protected_type
-from django.utils.encoding import smart_text as smart_unicode
+from django.utils.encoding import smart_str as smart_unicode
 from django.core.serializers.python import Deserializer as PythonDeserializer
 
 class Serializer(base.Serializer):
