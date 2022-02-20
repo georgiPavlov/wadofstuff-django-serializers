@@ -1,7 +1,7 @@
 """
 Full Python serializer for Django.
 """
-import base
+import .base
 from django.utils.encoding import smart_unicode, is_protected_type
 from django.core.serializers.python import Deserializer as PythonDeserializer
 
